@@ -43,7 +43,7 @@
     <!-- end Preloader -->
 
     <div class="container-fluid">
-       <!-- box-header -->
+        <!-- box-header -->
         <header class="box-header">
             <div class="box-logo">
                 <a href="inicio.html"><img src="img/logo.png" width="80" alt="Logo"></a>
@@ -55,7 +55,7 @@
             <!-- box-primary-nav-trigger -->
         </header>
         <!-- end box-header -->
-        
+
         <!-- nav -->
         <nav>
             <ul class="box-primary-nav">
@@ -63,13 +63,13 @@
 
                 <li><a href="inicio.html">Inicio</a></li>
                 <li><a href="acerca-de-mi.html">Acerca de mi</a></li>
-                <li><i class="fa-solid fa-dog color"></i> <a href="portafolio.html">Portafolio</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="portafolio.html">Portafolio</a></li>
+                <li><i class="fa-solid fa-dog color"></i> <a href="contacto.html">Contacto</a></li>
 
                 <li class="box-label">Idioma</li>
                 
-                <li><a href="cocina.html">Inglés</a></li>
-                <li><i class="fa-solid fa-dog color"></i> <a href="cocina.html">Español</a></li>
+                <li><a href="contact-me.html">Inglés</a></li>
+                <li><i class="fa-solid fa-dog color"></i> <a href="contacto.html">Español</a></li>
 
                 <li class="box-label">Sigueme en</li>
 
@@ -81,54 +81,72 @@
             </ul>
         </nav>
         <!-- end nav -->
+
     </div>
-    
-    <!-- top-bar -->
+
+    <!-- top bar -->
     <div class="top-bar">
-        <h1>Cocina</h1>
-        <p><a href="inicio.html">Inicio</a> / <a href="portafolio.html">Portafolio</a> / Cocina</p>
+        <h1>Información de Contacto</h1>
+        <p><a href="inicio.html">Inicio</a> / Contacto</p>
     </div>
-    <!-- end top-bar -->
-    
+    <!-- end top bar -->
+
     <!-- main-container -->
     <div class="container main-container">
-        <div class="col-md-12">
-            <img src="img/portfolio/07.png" alt="" class="img-responsive" />
+        <div class="col-md-6">
+            <!--<form action="#0" method="post">-->
+            <form name="contact" netlify>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="nombre" required>
+                            <span>Nombre</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="correo" required>
+                            <span>Correo</span>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="input-contact">
+                            <input type="text" name="telefono">
+                            <span>Telefono</span>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="textarea-contact">
+                            <textarea name="mensaje" required></textarea>
+                            <span>Dime como podemos trabajar juntos</span>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <!--<a href="index.html" class="btn btn-box">Send</a>-->
+                        <input type="submit" name="enviar" class="btn btn-box">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="col-md-6">
+            <h3 class="text-uppercase">Información de contacto</h3>
+            <h5>Me aseguraré de responder cuanto antes</h5>
             <div class="h-30"></div>
-        </div>
+            <p>Si necesitas contactarme no dudes en mandarme tus dudas, preguntas, sugerencias, comentarios o propuestas a mi correo de contacto o por mensaje directo en cualquiera de mis redes sociales, te responderé lo más rápido posible. </p>
 
-        <div class="col-md-12">
-            <h3 class="text-uppercase"><a href="#0" target="_BLANK">Cocina</a></h3>
-            <h5>Escenario 3d/ Realista</h5>
-            <div class="h-30"></div>
-        </div>
-
-        <div class="col-md-9">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliter enim nosmet ipsos nosse non possumus. Inscite autem medicinae et gubernationis ultimum cum ultimo sapientiae comparatur. Tecum optime, deinde etiam cum mediocri amico. Et nemo nimium beatus est; Ac ne plura complectar-sunt enim innumerabilia-, bene laudata virtus voluptatis aditus ultimum cum ultimo sapientiae Et nemo nimium beatus est </p>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliter enim nosmet ipsos nosse non possumus. Inscite autem medicinae et gubernationis ultimum cum ultimo sapientiae comparatur. Tecum optime, deinde etiam cum mediocri amico. Et nemo nimium beatus est; Ac ne plura complectar-sunt enim innumerabilia </p>
-        </div>
-
-        <div class="col-md-3">
-            <ul class="cat-ul">
-                <li><i class="ion-ios-circle-filled"></i> Design</li>
-                <li><i class="ion-ios-circle-filled"></i> consectetur adipiscing</li>
-                <li><i class="ion-ios-circle-filled"></i> et gubernationis</li>
-                <li><i class="ion-ios-circle-filled"></i> Aliter enim nosmet</li>
-            </ul>
-            <div class="h-10"></div>
-            <h4>Comparte</h4>
             <ul class="social-ul">
-                <<li class="box-social"><a href="https://www.artstation.com/doghost3d" target="_BLANK"><i class="fa-brands fa-artstation"></i></a></li>
+                <li class="box-social"><a href="https://www.artstation.com/doghost3d" target="_BLANK"><i class="fa-brands fa-artstation"></i></a></li>
                 <li class="box-social"><a href="https://www.instagram.com/doghost3d" target="_BLANK"><i class="fa-brands fa-instagram"></i></a></li>
                 <li class="box-social"><a href="https://www.twitter.com/doghost3d" target="_BLANK"><i class="fa-brands fa-twitter"></i></a></li>
                 <li class="box-social"><a href="https://sketchfab.com/Doghost" target="_BLANK"><i class="fa-solid fa-cube"></i></a></li>
                 <!--<li class="box-social"><a href="#0"><i class="fa-brands fa-linkedin"></i></a></li>-->
             </ul>
         </div>
+
+
     </div>
     <!-- end main-container -->
-
 
     <!-- footer -->
     <footer>
@@ -137,11 +155,10 @@
         </div>
     </footer>
     <!-- end footer -->
-    
+
     <!-- back to top -->
     <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
     <!-- end back to top -->
-
 
 
 

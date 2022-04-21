@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -43,10 +43,10 @@
     <!-- end Preloader -->
 
     <div class="container-fluid">
-       <!-- box-header -->
+        <!-- box-header -->
         <header class="box-header">
             <div class="box-logo">
-                <a href="inicio.html"><img src="img/logo.png" width="80" alt="Logo"></a>
+                <a href="home.html"><img src="img/logo.png" width="80" alt="Logo"></a>
             </div>
             <!-- box-nav -->
             <a class="box-primary-nav-trigger" href="#0">
@@ -55,23 +55,23 @@
             <!-- box-primary-nav-trigger -->
         </header>
         <!-- end box-header -->
-        
+
         <!-- nav -->
         <nav>
             <ul class="box-primary-nav">
-                <li class="box-label">Acerca de</li>
+                <li class="box-label">About me</li>
 
-                <li><a href="inicio.html">Inicio</a></li>
-                <li><a href="acerca-de-mi.html">Acerca de mi</a></li>
-                <li><i class="fa-solid fa-dog color"></i> <a href="portafolio.html">Portafolio</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-
-                <li class="box-label">Idioma</li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about-me.html">About me</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><i class="fa-solid fa-dog color"></i> <a href="contact-me.html">Contact me</a></li>
                 
-                <li><a href="cocina.html">Inglés</a></li>
-                <li><i class="fa-solid fa-dog color"></i> <a href="cocina.html">Español</a></li>
+                <li class="box-label">Language</li>
+                
+                <li><i class="fa-solid fa-dog color"></i> <a href="contact-me.html">English</a></li>
+                <li><a href="contacto.html">Spanish</a></li>
 
-                <li class="box-label">Sigueme en</li>
+                <li class="box-label">Follow me</li>
 
                 <li class="box-social"><a href="https://www.artstation.com/doghost3d" target="_BLANK"><i class="fa-brands fa-artstation"></i></a></li>
                 <li class="box-social"><a href="https://www.instagram.com/doghost3d" target="_BLANK"><i class="fa-brands fa-instagram"></i></a></li>
@@ -81,54 +81,72 @@
             </ul>
         </nav>
         <!-- end nav -->
+
     </div>
-    
-    <!-- top-bar -->
+
+    <!-- top bar -->
     <div class="top-bar">
-        <h1>Cocina</h1>
-        <p><a href="inicio.html">Inicio</a> / <a href="portafolio.html">Portafolio</a> / Cocina</p>
+        <h1>Contact Me</h1>
+        <p><a href="home.html">Home</a> / Contact</p>
     </div>
-    <!-- end top-bar -->
-    
+    <!-- end top bar -->
+
     <!-- main-container -->
     <div class="container main-container">
-        <div class="col-md-12">
-            <img src="img/portfolio/07.png" alt="" class="img-responsive" />
+        <div class="col-md-6">
+            <!--<form action="#0" method="post">-->
+            <form name="contact" netlify>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="nombre" required>
+                            <span>Name</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="correo" required>
+                            <span>Mail</span>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="input-contact">
+                            <input type="text" name="telefono">
+                            <span>Phone</span>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="textarea-contact">
+                            <textarea name="mensaje" required></textarea>
+                            <span>Tell me how we can work together</span>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <!--<a href="index.html" class="btn btn-box">Send</a>-->
+                        <input type="submit" name="submit" class="btn btn-box">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="col-md-6">
+            <h3 class="text-uppercase">Contact Me</h3>
+            <h5>I will respond as soon as possible</h5>
             <div class="h-30"></div>
-        </div>
+            <p>Contact me and send me your doubts, questions, suggestions, comments or proposals to my email or by DM in any of my social networks, I will respond as quickly as possible. </p>
 
-        <div class="col-md-12">
-            <h3 class="text-uppercase"><a href="#0" target="_BLANK">Cocina</a></h3>
-            <h5>Escenario 3d/ Realista</h5>
-            <div class="h-30"></div>
-        </div>
-
-        <div class="col-md-9">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliter enim nosmet ipsos nosse non possumus. Inscite autem medicinae et gubernationis ultimum cum ultimo sapientiae comparatur. Tecum optime, deinde etiam cum mediocri amico. Et nemo nimium beatus est; Ac ne plura complectar-sunt enim innumerabilia-, bene laudata virtus voluptatis aditus ultimum cum ultimo sapientiae Et nemo nimium beatus est </p>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliter enim nosmet ipsos nosse non possumus. Inscite autem medicinae et gubernationis ultimum cum ultimo sapientiae comparatur. Tecum optime, deinde etiam cum mediocri amico. Et nemo nimium beatus est; Ac ne plura complectar-sunt enim innumerabilia </p>
-        </div>
-
-        <div class="col-md-3">
-            <ul class="cat-ul">
-                <li><i class="ion-ios-circle-filled"></i> Design</li>
-                <li><i class="ion-ios-circle-filled"></i> consectetur adipiscing</li>
-                <li><i class="ion-ios-circle-filled"></i> et gubernationis</li>
-                <li><i class="ion-ios-circle-filled"></i> Aliter enim nosmet</li>
-            </ul>
-            <div class="h-10"></div>
-            <h4>Comparte</h4>
             <ul class="social-ul">
-                <<li class="box-social"><a href="https://www.artstation.com/doghost3d" target="_BLANK"><i class="fa-brands fa-artstation"></i></a></li>
+                <li class="box-social"><a href="https://www.artstation.com/doghost3d" target="_BLANK"><i class="fa-brands fa-artstation"></i></a></li>
                 <li class="box-social"><a href="https://www.instagram.com/doghost3d" target="_BLANK"><i class="fa-brands fa-instagram"></i></a></li>
                 <li class="box-social"><a href="https://www.twitter.com/doghost3d" target="_BLANK"><i class="fa-brands fa-twitter"></i></a></li>
                 <li class="box-social"><a href="https://sketchfab.com/Doghost" target="_BLANK"><i class="fa-solid fa-cube"></i></a></li>
                 <!--<li class="box-social"><a href="#0"><i class="fa-brands fa-linkedin"></i></a></li>-->
             </ul>
         </div>
+
+
     </div>
     <!-- end main-container -->
-
 
     <!-- footer -->
     <footer>
@@ -137,11 +155,10 @@
         </div>
     </footer>
     <!-- end footer -->
-    
+
     <!-- back to top -->
     <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
     <!-- end back to top -->
-
 
 
 
